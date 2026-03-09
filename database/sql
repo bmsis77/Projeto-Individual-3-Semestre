@@ -1,0 +1,26 @@
+CREATE DATABASE copas;
+
+USE copas;
+
+CREATE TABLE selecao (
+ id INT PRIMARY KEY AUTO_INCREMENT,
+ nome VARCHAR(50) NOT NULL
+);
+
+CREATE TABLE jogador (
+ id INT PRIMARY KEY AUTO_INCREMENT,
+ nome VARCHAR(100) NOT NULL,
+ numero_camisa INT NOT NULL,
+ data_nascimento DATE NOT NULL,
+ selecao_id INT NOT NULL,
+ titular BOOLEAN NOT NULL,
+ posicao VARCHAR(20) NOT NULL,
+FOREIGN KEY (selecao_id) REFERENCES selecao(id)
+);
+
+INSERT INTO selecao (nome) VALUES
+('Brasil'),
+('Argentina'),
+('França'),
+('Alemanha'),
+('Espanha');
