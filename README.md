@@ -139,4 +139,4 @@ Este projeto foi desenvolvido com finalidade acadêmica para praticar conceitos 
 
 ## Autor
 
-Projeto desenvolvido para fins de estudo e prática em desenvolvimento web fullstack utilizando Java e tecnologias web.
+Projeto desenvolvido por Bryan Machado da Costa e Silva, aluno de Sistemas de Informação da São Paulo Tech School (SPTech), sob orientação do professor Manoel. Projeto desenvolvido para fins de estudo e prática em desenvolvimento web fullstack utilizando Java e tecnologias web.
